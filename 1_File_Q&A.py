@@ -19,5 +19,5 @@ original = Image.open(image)
 col1.header("Original")
 col1.image(original, use_column_width=True)
 
-    st.write("### Answer")
-    st.write(response.completion)
+st.write("### Answer")
+st.write(response.completion)
