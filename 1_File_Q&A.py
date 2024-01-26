@@ -17,7 +17,9 @@ col1, col2 = st.columns(2)
 
 #original = Image.open(image)
 col1.header("Anthropic")
+col1.write("### Anthropic Answer")
 col2.header("Cohere")
+col2.write("### Cohere Answer")
 #col1.image(original, use_column_width=True)
 
 st.write("### Answer")
