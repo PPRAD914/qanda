@@ -16,7 +16,8 @@ question = st.text_input(
 col1, col2 = st.columns(2)
 
 #original = Image.open(image)
-col1.header("Original")
+col1.header("Anthropic")
+col1.header("Cohere")
 #col1.image(original, use_column_width=True)
 
 st.write("### Answer")
